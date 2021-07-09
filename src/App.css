@@ -1,0 +1,8 @@
+/* Roboto Font */
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.point {
+  cursor: pointer;
+}
