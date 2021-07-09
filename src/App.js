@@ -1,4 +1,5 @@
 import Appbar from "./Components/Appbar/Appbar";
+import Table from "./Components/Table/Table";
 import { createTheme } from "@material-ui/core/styles";
 import { ThemeProvider } from "@material-ui/core";
 import "./App.css";
@@ -25,6 +26,7 @@ function App() {
     <div>
       <ThemeProvider theme={theme}>
         <Appbar />
+        <Table />
       </ThemeProvider>
     </div>
   );
